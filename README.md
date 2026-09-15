@@ -39,6 +39,6 @@ public/
 O site tem deploy automático em dois destinos a cada push para `main`:
 
 - **Vercel** — projeto ligado ao repositório, build detetado automaticamente
-  (framework Vite). URL de produção: https://halliving.vercel.app
+  (framework Vite). URL de produção: https://halliving.com
 - **GitHub Pages** — via o workflow `.github/workflows/deploy.yml`
   (requer `Settings → Pages → Source: GitHub Actions` ativado no repositório)
