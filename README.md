@@ -30,15 +30,13 @@ src/
   i18n.js      # traduções PT/EN e dados de contacto
   main.jsx     # ponto de entrada React
 public/
-  CNAME        # domínio halliving.com (GitHub Pages)
   favicon.svg
 ```
 
 ## Deploy
 
-O site tem deploy automático em dois destinos a cada push para `main`:
+Projeto ligado à Vercel (build detetado automaticamente, framework Vite),
+com deploy automático a cada push para `main`.
 
-- **Vercel** — projeto ligado ao repositório, build detetado automaticamente
-  (framework Vite). URL de produção: https://halliving.com
-- **GitHub Pages** — via o workflow `.github/workflows/deploy.yml`
-  (requer `Settings → Pages → Source: GitHub Actions` ativado no repositório)
+- URL de produção: https://halliving.com
+- Também acessível em: https://halliving.vercel.app
